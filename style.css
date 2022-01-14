@@ -7,6 +7,18 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/* common css */
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 40px;
+    border-bottom: 2px solid #ff008e;
+    margin: 50px 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -72,4 +84,46 @@ nav{
     width: 100%;
 }
 
-/* 53 mit video dhakci */
+.btn{
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-image: linear-gradient(90deg, #d6137f, #ff008e);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    cursor: pointer; 
+    box-shadow: 0 7px 0 #b60667;
+    position: relative;
+    top: 0;
+}
+.btn:active{
+    top: 5px;
+    box-shadow: 0 2px 0 #b60667;
+}
+
+/* feature start */
+
+.feature{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    justify-content:center;
+}
+.card{
+    width: 300px;
+    padding: 30px;
+    box-shadow: 0 20px 25px rgba(0,0,0,.3);
+    margin: 0 auto;
+}
+.card .card-icon{
+    background-color: #ff008e;
+    border-radius: 50%;
+     height: 30px; 
+    width: 30px;
+    padding: 7px;
+    color: white;
+}
+
+/* 1:16hr daka hoise */
