@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+header{
+    /* height: 100vh; */
+    background-image: url("images/cloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: overlay;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+   padding: 15px 10px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: calc( 100vh - 80px );
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-left h1{
+    font-size: 40px;
+    color: white;
+}
+.banner-left p{
+    font-size: 18px;
+    color: white;
+    line-height:1.5 ;
+    margin: 20px 0;
+}
+.primary-color{
+    color: #ff008e;
+}
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner-right img{
+    width: 100%;
+}
+
+/* 53 mit video dhakci */
